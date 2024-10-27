@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ergo-pw")(type "KiCad")(uri "${KIPRJMOD}/ergo-pw.kicad_sym")(options "")(descr ""))
+)
