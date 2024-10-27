@@ -3283,7 +3283,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 224.79) (xy 59.69 234.95)
+			(xy 59.69 184.15) (xy 59.69 194.31)
 		)
 		(stroke
 			(width 0)
@@ -3420,6 +3420,26 @@
 			(type default)
 		)
 		(uuid "1e486052-afe5-422a-b39d-ec4cf8f80900")
+	)
+	(wire
+		(pts
+			(xy 33.02 229.87) (xy 35.56 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e54f245-0851-4a7e-9270-b807a4c46e3b")
+	)
+	(wire
+		(pts
+			(xy 72.39 229.87) (xy 74.93 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2098c0b2-ce76-4b0d-86c4-17794bb35c13")
 	)
 	(wire
 		(pts
@@ -3603,6 +3623,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 219.71) (xy 74.93 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48cae740-0cce-496d-8b1f-0b70d41b723b")
+	)
+	(wire
+		(pts
 			(xy 261.62 86.36) (xy 261.62 87.63)
 		)
 		(stroke
@@ -3620,6 +3650,16 @@
 			(type default)
 		)
 		(uuid "4dc50d5b-1954-409d-a370-07cf0bce0378")
+	)
+	(wire
+		(pts
+			(xy 82.55 185.42) (xy 82.55 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "527980e6-34ff-4948-925d-8f0dfd04ede8")
 	)
 	(wire
 		(pts
@@ -3713,6 +3753,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 195.58) (xy 82.55 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66c34c25-6537-43bc-a00e-4a4a1549de6f")
+	)
+	(wire
+		(pts
 			(xy 261.62 87.63) (xy 261.62 95.25)
 		)
 		(stroke
@@ -3740,6 +3790,16 @@
 			(type default)
 		)
 		(uuid "69d63c6a-07ee-4fe2-bf99-546fde31bfcd")
+	)
+	(wire
+		(pts
+			(xy 35.56 219.71) (xy 35.56 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b8b3efa-2f29-45fd-b55e-ab58efad8e82")
 	)
 	(wire
 		(pts
@@ -4003,6 +4063,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 219.71) (xy 55.88 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af4413a2-5579-4fcc-baf9-37bc1cec52dd")
+	)
+	(wire
+		(pts
 			(xy 279.4 43.18) (xy 285.75 43.18)
 		)
 		(stroke
@@ -4123,7 +4193,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 234.95) (xy 59.69 234.95)
+			(xy 57.15 194.31) (xy 59.69 194.31)
 		)
 		(stroke
 			(width 0)
@@ -4143,6 +4213,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 229.87) (xy 55.88 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db43e4e7-cdd0-42df-8a93-c5fabd11aa3d")
+	)
+	(wire
+		(pts
 			(xy 201.93 217.17) (xy 201.93 226.06)
 		)
 		(stroke
@@ -4150,6 +4230,26 @@
 			(type default)
 		)
 		(uuid "e25a855a-bd30-4d7c-ab19-041e1ad852e6")
+	)
+	(wire
+		(pts
+			(xy 38.1 199.39) (xy 40.64 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e33e24fb-cf15-4936-a50c-867055cc7a8a")
+	)
+	(wire
+		(pts
+			(xy 40.64 189.23) (xy 40.64 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4b879a6-c8e0-4330-98bf-7c6b9dba5ecf")
 	)
 	(wire
 		(pts
@@ -4424,7 +4524,7 @@
 	)
 	(text "JST"
 		(exclude_from_sim no)
-		(at 45.72 222.25 0)
+		(at 45.72 181.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4501,7 +4601,7 @@
 	)
 	(global_label "-BATT"
 		(shape input)
-		(at 57.15 237.49 0)
+		(at 57.15 196.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4511,7 +4611,7 @@
 		)
 		(uuid "016135a2-0da7-4399-9af7-a619c8235b91")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.0014 237.49 0)
+			(at 66.0014 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4785,6 +4885,28 @@
 			)
 		)
 	)
+	(global_label "-BATT"
+		(shape input)
+		(at 80.01 198.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6b655e8c-54fa-40d6-9c8a-ad1ad0fe2928")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.8614 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CS"
 		(shape input)
 		(at 217.17 55.88 180)
@@ -4803,6 +4925,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "-BATT"
+		(shape input)
+		(at 33.02 232.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "800c7e78-03ba-42ce-a326-dfa640222106")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.8714 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4873,6 +5017,28 @@
 			)
 		)
 	)
+	(global_label "-BATT"
+		(shape input)
+		(at 38.1 201.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b4c40373-de1b-476c-b2a5-c5fc3660d647")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.9514 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SCK"
 		(shape input)
 		(at 285.75 48.26 180)
@@ -4897,7 +5063,7 @@
 	)
 	(global_label "BATT_TS"
 		(shape input)
-		(at 58.42 194.31 0)
+		(at 58.42 153.67 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4907,7 +5073,7 @@
 		)
 		(uuid "be2f5ed7-4eb9-4b92-b790-45ce6bedb3a5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 68.8437 194.31 0)
+			(at 68.8437 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4983,6 +5149,28 @@
 			)
 		)
 	)
+	(global_label "-BATT"
+		(shape input)
+		(at 53.34 232.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c4fdd056-3dfc-482a-a629-e9c2bedcf2b2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.1914 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DP"
 		(shape input)
 		(at 101.6 59.055 0)
@@ -5018,6 +5206,28 @@
 		(uuid "e2babe3d-68c6-46ac-bf7b-aaf59916c588")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 180.34 110.7101 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "-BATT"
+		(shape input)
+		(at 72.39 232.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e6a55cc8-5177-42fc-bed9-2c00b7f426c3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.2414 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6192,6 +6402,85 @@
 		)
 	)
 	(symbol
+		(lib_id "ergo-pw:BM02B-SRSS-TB")
+		(at 25.4 229.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e34ee14-8cd2-4d8b-8bcd-8106de8579fc")
+		(property "Reference" "J9"
+			(at 26.67 224.79 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Value" "BM02B-SRSS-TB"
+			(at 24.13 237.49 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ergo-pw:BM02B-SRSS-TB"
+			(at 26.162 226.06 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C395299"
+			(at 25.4 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "909ab0d3-e8f7-4f2d-ae4c-4d652aebe32b")
+		)
+		(pin "2"
+			(uuid "f361bb7c-eb90-480c-9561-27e19bdc9dfb")
+		)
+		(instances
+			(project "Hyper7-Evo"
+				(path "/6e969df5-291e-4ce6-a5a9-5916de5e6cb3/cece81f1-c5d9-4d5f-8a8b-cac0b4ee2fc1"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ergo-pw:GND")
 		(at 54.61 69.215 0)
 		(unit 1)
@@ -6812,6 +7101,151 @@
 			(project "Hyper7-Evo"
 				(path "/6e969df5-291e-4ce6-a5a9-5916de5e6cb3/cece81f1-c5d9-4d5f-8a8b-cac0b4ee2fc1"
 					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ergo-pw:BM02B-SRSS-TB")
+		(at 45.72 229.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e9a4b16-9fda-4a86-8bd8-c0fd55782df6")
+		(property "Reference" "J10"
+			(at 46.99 224.79 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Value" "BM02B-SRSS-TB"
+			(at 44.45 237.49 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ergo-pw:BM02B-SRSS-TB"
+			(at 46.482 226.06 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C395299"
+			(at 45.72 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08605bd1-eed0-443c-b189-8f673a1d23c2")
+		)
+		(pin "2"
+			(uuid "7878b2c5-69fd-444f-9ffa-9509a2bd61f4")
+		)
+		(instances
+			(project "Hyper7-Evo"
+				(path "/6e969df5-291e-4ce6-a5a9-5916de5e6cb3/cece81f1-c5d9-4d5f-8a8b-cac0b4ee2fc1"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ergo-pw:+BATT")
+		(at 40.64 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24aebc15-d849-4b31-a5ef-adebdb3121c6")
+		(property "Reference" "#PWR0256"
+			(at 40.64 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 40.64 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "206e8409-d6be-41f0-bcaa-a07b285e9fc2")
+		)
+		(instances
+			(project "Hyper7-Evo"
+				(path "/6e969df5-291e-4ce6-a5a9-5916de5e6cb3/cece81f1-c5d9-4d5f-8a8b-cac0b4ee2fc1"
+					(reference "#PWR0256")
 					(unit 1)
 				)
 			)
@@ -8462,6 +8896,85 @@
 		)
 	)
 	(symbol
+		(lib_id "ergo-pw:BM02B-SRSS-TB")
+		(at 64.77 229.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75e74070-a3f9-4e08-9630-af428b1c1da2")
+		(property "Reference" "J11"
+			(at 66.04 224.79 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Value" "BM02B-SRSS-TB"
+			(at 63.5 237.49 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ergo-pw:BM02B-SRSS-TB"
+			(at 65.532 226.06 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C395299"
+			(at 64.77 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42d97d6f-d707-4f91-ae3f-dcdb6b993fb0")
+		)
+		(pin "2"
+			(uuid "e4117623-908d-4b4f-be97-fdee4575237c")
+		)
+		(instances
+			(project "Hyper7-Evo"
+				(path "/6e969df5-291e-4ce6-a5a9-5916de5e6cb3/cece81f1-c5d9-4d5f-8a8b-cac0b4ee2fc1"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74HC595")
 		(at 227.33 110.49 0)
 		(unit 1)
@@ -8788,6 +9301,72 @@
 		)
 	)
 	(symbol
+		(lib_id "ergo-pw:+BATT")
+		(at 74.93 219.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "837001d0-3aaa-473d-aec5-5900e8a935d2")
+		(property "Reference" "#PWR0254"
+			(at 74.93 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 74.93 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee9b13d9-ccc4-4959-aef7-ad0570a46f73")
+		)
+		(instances
+			(project "Hyper7-Evo"
+				(path "/6e969df5-291e-4ce6-a5a9-5916de5e6cb3/cece81f1-c5d9-4d5f-8a8b-cac0b4ee2fc1"
+					(reference "#PWR0254")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ergo-pw:SiP32431DR3")
 		(at 157.48 46.99 0)
 		(unit 1)
@@ -9007,6 +9586,85 @@
 		)
 	)
 	(symbol
+		(lib_id "ergo-pw:BM02B-SRSS-TB")
+		(at 30.48 199.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e2f077a-5afd-49e8-8af5-4bff5c29ba12")
+		(property "Reference" "J13"
+			(at 31.75 194.31 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Value" "BM02B-SRSS-TB"
+			(at 29.21 207.01 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ergo-pw:BM02B-SRSS-TB"
+			(at 31.242 195.58 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 30.48 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C395299"
+			(at 30.48 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ecc5fad-6f42-4362-a509-a2483b91fb52")
+		)
+		(pin "2"
+			(uuid "d72071da-11dd-47d7-bc03-6b0537c22635")
+		)
+		(instances
+			(project "Hyper7-Evo"
+				(path "/6e969df5-291e-4ce6-a5a9-5916de5e6cb3/cece81f1-c5d9-4d5f-8a8b-cac0b4ee2fc1"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ergo-pw:C-EUC0603")
 		(at 256.54 35.56 180)
 		(unit 1)
@@ -9096,7 +9754,7 @@
 	)
 	(symbol
 		(lib_id "ergo-pw:R-EU_R0603")
-		(at 58.42 199.39 90)
+		(at 58.42 158.75 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9105,7 +9763,7 @@
 		(fields_autoplaced yes)
 		(uuid "90b89eea-3e50-444a-ae90-c0e42c5dfdb8")
 		(property "Reference" "R1"
-			(at 60.96 199.39 90)
+			(at 60.96 158.75 90)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -9114,7 +9772,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 61.722 203.2 0)
+			(at 61.722 162.56 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -9124,7 +9782,7 @@
 			)
 		)
 		(property "Footprint" "ergo-pw:R_0402_1005Metric"
-			(at 54.61 198.628 0)
+			(at 54.61 157.988 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -9133,7 +9791,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 199.39 0)
+			(at 58.42 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9142,7 +9800,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 199.39 0)
+			(at 58.42 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9151,7 +9809,7 @@
 			)
 		)
 		(property "LCSC Part" "C2906885"
-			(at 58.42 199.39 0)
+			(at 58.42 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9176,7 +9834,7 @@
 	)
 	(symbol
 		(lib_id "ergo-pw:GND")
-		(at 58.42 204.47 0)
+		(at 58.42 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9184,7 +9842,7 @@
 		(dnp no)
 		(uuid "9649556c-546a-4f65-87c7-167bd5fd64d9")
 		(property "Reference" "#PWR05"
-			(at 58.42 210.82 0)
+			(at 58.42 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9193,7 +9851,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 58.42 204.47 0)
+			(at 58.42 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9201,7 +9859,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 204.47 0)
+			(at 58.42 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9210,7 +9868,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 204.47 0)
+			(at 58.42 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9219,7 +9877,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 204.47 0)
+			(at 58.42 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9703,6 +10361,85 @@
 		)
 	)
 	(symbol
+		(lib_id "ergo-pw:BM02B-SRSS-TB")
+		(at 72.39 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9d7969e-ee7e-4d3c-9474-d70ec11b8ada")
+		(property "Reference" "J12"
+			(at 73.66 190.5 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Value" "BM02B-SRSS-TB"
+			(at 71.12 203.2 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ergo-pw:BM02B-SRSS-TB"
+			(at 73.152 191.77 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C395299"
+			(at 72.39 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7213ad42-8b0e-4c4c-8cd6-38fe4db203f1")
+		)
+		(pin "2"
+			(uuid "21292401-0825-4977-bb79-48464d076888")
+		)
+		(instances
+			(project "Hyper7-Evo"
+				(path "/6e969df5-291e-4ce6-a5a9-5916de5e6cb3/cece81f1-c5d9-4d5f-8a8b-cac0b4ee2fc1"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ergo-pw:Q_NMOS_Depletion_GSD")
 		(at 147.32 124.46 0)
 		(unit 1)
@@ -10136,16 +10873,16 @@
 	)
 	(symbol
 		(lib_id "ergo-pw:+BATT")
-		(at 59.69 224.79 0)
+		(at 55.88 219.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c2fad753-832e-482f-92ea-3ae4bcfbefd8")
-		(property "Reference" "#PWR06"
-			(at 59.69 228.6 0)
+		(uuid "c28d0471-570b-47a5-9ce4-fb0314a19f2f")
+		(property "Reference" "#PWR0253"
+			(at 55.88 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10154,7 +10891,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 59.69 219.71 0)
+			(at 55.88 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10162,7 +10899,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 224.79 0)
+			(at 55.88 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10171,7 +10908,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 224.79 0)
+			(at 55.88 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10180,7 +10917,73 @@
 			)
 		)
 		(property "Description" ""
-			(at 59.69 224.79 0)
+			(at 55.88 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f428f361-1d87-4441-ac47-39c6bb56d99b")
+		)
+		(instances
+			(project "Hyper7-Evo"
+				(path "/6e969df5-291e-4ce6-a5a9-5916de5e6cb3/cece81f1-c5d9-4d5f-8a8b-cac0b4ee2fc1"
+					(reference "#PWR0253")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ergo-pw:+BATT")
+		(at 59.69 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2fad753-832e-482f-92ea-3ae4bcfbefd8")
+		(property "Reference" "#PWR06"
+			(at 59.69 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 59.69 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 59.69 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10424,6 +11227,72 @@
 			(project "Hyper7-Evo"
 				(path "/6e969df5-291e-4ce6-a5a9-5916de5e6cb3/cece81f1-c5d9-4d5f-8a8b-cac0b4ee2fc1"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ergo-pw:+BATT")
+		(at 35.56 219.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c67af191-dd84-4902-8a89-4e24ef2a9125")
+		(property "Reference" "#PWR0252"
+			(at 35.56 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 35.56 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f670425-647e-4fd1-be2a-f006e86e04ed")
+		)
+		(instances
+			(project "Hyper7-Evo"
+				(path "/6e969df5-291e-4ce6-a5a9-5916de5e6cb3/cece81f1-c5d9-4d5f-8a8b-cac0b4ee2fc1"
+					(reference "#PWR0252")
 					(unit 1)
 				)
 			)
@@ -11624,6 +12493,72 @@
 		)
 	)
 	(symbol
+		(lib_id "ergo-pw:+BATT")
+		(at 82.55 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb359620-029e-44a9-811c-f816903a38ab")
+		(property "Reference" "#PWR0255"
+			(at 82.55 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 82.55 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08f5009f-cacd-4a14-87ef-842c95b5ab98")
+		)
+		(instances
+			(project "Hyper7-Evo"
+				(path "/6e969df5-291e-4ce6-a5a9-5916de5e6cb3/cece81f1-c5d9-4d5f-8a8b-cac0b4ee2fc1"
+					(reference "#PWR0255")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ergo-pw:GND")
 		(at 215.9 182.88 0)
 		(unit 1)
@@ -11691,7 +12626,7 @@
 	)
 	(symbol
 		(lib_id "ergo-pw:BM02B-SRSS-TB")
-		(at 49.53 234.95 0)
+		(at 49.53 194.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11700,7 +12635,7 @@
 		(fields_autoplaced yes)
 		(uuid "fff49650-676d-4fe2-878a-7cbca9120201")
 		(property "Reference" "J2"
-			(at 50.8 229.87 0)
+			(at 50.8 189.23 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -11708,7 +12643,7 @@
 			)
 		)
 		(property "Value" "BM02B-SRSS-TB"
-			(at 48.26 242.57 0)
+			(at 48.26 201.93 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -11718,7 +12653,7 @@
 			)
 		)
 		(property "Footprint" "ergo-pw:BM02B-SRSS-TB"
-			(at 50.292 231.14 0)
+			(at 50.292 190.5 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -11727,7 +12662,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 234.95 0)
+			(at 49.53 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11736,7 +12671,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 234.95 0)
+			(at 49.53 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11745,7 +12680,7 @@
 			)
 		)
 		(property "LCSC Part" "C395299"
-			(at 49.53 234.95 0)
+			(at 49.53 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
