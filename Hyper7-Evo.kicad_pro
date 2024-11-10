@@ -58,7 +58,11 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|180599999|120800001|7b088a9a-f515-410a-aaa4-23699982d358|f5134dd3-013a-471c-b5e1-1e691c74c09e",
+        "courtyards_overlap|237074999|120800001|2370c2ec-e81c-4f24-b1dd-1edab7725358|2ce47964-fe44-4963-a544-9a29d83cb4b6",
+        "courtyards_overlap|72039999|120800001|0d30c319-d487-4b6c-88f8-e91c0cce1db0|44df05af-cc69-4946-8f85-d13a0b474fbe"
+      ],
       "meta": {
         "version": 2
       },
@@ -642,11 +646,47 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Digikey Part",
+          "name": "Digikey Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part",
+          "name": "LCSC Part",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Link",
+          "name": "Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Notes",
+          "name": "Notes",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -703,5 +743,10 @@
       "NGP Base"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "GIT_HASH": "45ca3f7",
+    "GIT_TAG": "V0.1",
+    "PROJ_PN": "00000002",
+    "PROJ_TITLE": "Hyper7 Evo"
+  }
 }

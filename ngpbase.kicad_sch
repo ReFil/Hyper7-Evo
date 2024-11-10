@@ -3413,6 +3413,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 101.6) (xy 179.07 100.965)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09f00f26-318a-464a-80f9-2f60b76e46ed")
+	)
+	(wire
+		(pts
 			(xy 106.68 71.12) (xy 110.49 71.12)
 		)
 		(stroke
@@ -3980,6 +3990,16 @@
 			(type default)
 		)
 		(uuid "dc42ae48-0cb5-4f8f-b1c9-0359ab0593c5")
+	)
+	(wire
+		(pts
+			(xy 179.07 97.79) (xy 179.07 98.425)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7c3b091-3c8a-4a15-9533-68182334b154")
 	)
 	(wire
 		(pts
@@ -5498,7 +5518,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1.8k"
+		(property "Value" "590"
 			(at 182.372 117.475 0)
 			(effects
 				(font
@@ -5535,7 +5555,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25871"
+		(property "LCSC Part" "C2998181"
 			(at 179.07 113.665 0)
 			(effects
 				(font
@@ -6066,7 +6086,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1.8k"
+		(property "Value" "1.1k"
 			(at 178.562 117.475 0)
 			(effects
 				(font
@@ -6103,7 +6123,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25871"
+		(property "LCSC Part" "C25860"
 			(at 175.26 113.665 0)
 			(effects
 				(font
@@ -6129,7 +6149,7 @@
 	)
 	(symbol
 		(lib_id "ergo-pw:VDD")
-		(at 179.07 98.425 90)
+		(at 179.07 101.6 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6138,7 +6158,7 @@
 		(fields_autoplaced yes)
 		(uuid "6ea6e55d-6cb5-4f86-b317-61b6936a6c91")
 		(property "Reference" "#PWR055"
-			(at 182.88 98.425 0)
+			(at 182.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6147,7 +6167,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 175.26 98.425 90)
+			(at 175.26 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6156,7 +6176,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 98.425 0)
+			(at 179.07 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6165,7 +6185,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 98.425 0)
+			(at 179.07 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6174,7 +6194,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 179.07 98.425 0)
+			(at 179.07 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7660,7 +7680,7 @@
 	)
 	(symbol
 		(lib_id "ergo-pw:GND")
-		(at 179.07 100.965 270)
+		(at 179.07 97.79 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7668,7 +7688,7 @@
 		(dnp no)
 		(uuid "d97bd96c-3c20-4dd7-910b-38f44d5daa3a")
 		(property "Reference" "#PWR056"
-			(at 172.72 100.965 0)
+			(at 172.72 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7677,7 +7697,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 174.6758 101.092 0)
+			(at 174.6758 97.917 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7686,7 +7706,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 100.965 0)
+			(at 179.07 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7695,7 +7715,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 100.965 0)
+			(at 179.07 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7704,7 +7724,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 179.07 100.965 0)
+			(at 179.07 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7981,7 +8001,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "\n802.15.4, Bluetooth Bluetooth v5.2, Zigbee® Transceiver Module 2.36GHz ~ 2.5GHz Integrated, Chip Surface Mount\n"
+		(property "Description" "802.15.4, Bluetooth Bluetooth v5.2, Zigbee® Transceiver Module 2.36GHz ~ 2.5GHz Integrated, Chip Surface Mount"
 			(at 78.74 73.66 0)
 			(effects
 				(font

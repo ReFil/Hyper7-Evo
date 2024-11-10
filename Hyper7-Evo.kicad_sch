@@ -15668,6 +15668,17 @@
 		)
 		(uuid "411727d9-1bdb-4ac1-aa6d-7dd583c8dc8b")
 	)
+	(label "SCL"
+		(at 55.88 326.39 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "46267197-297c-4fe6-a5c4-4756a74a3c2b")
+	)
 	(label "COL9"
 		(at 405.13 128.27 0)
 		(fields_autoplaced yes)
@@ -15678,6 +15689,17 @@
 			(justify left bottom)
 		)
 		(uuid "4840a693-c8bd-44c1-8e86-bafaa5014467")
+	)
+	(label "SDA"
+		(at 52.07 326.39 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "49823599-8200-440f-8c03-4b4c0c592ee7")
 	)
 	(label "COL20"
 		(at 35.56 143.51 0)
@@ -20834,7 +20856,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 527.05 190.5 0)
 			(effects
 				(font
@@ -21000,7 +21022,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 600.71 190.5 0)
 			(effects
 				(font
@@ -21778,7 +21800,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 671.83 292.1 0)
 			(effects
 				(font
@@ -22813,7 +22835,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 807.72 152.4 0)
 			(effects
 				(font
@@ -22965,7 +22987,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 490.22 254 0)
 			(effects
 				(font
@@ -23196,7 +23218,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 241.3 39.37 0)
 			(effects
 				(font
@@ -23611,7 +23633,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 755.65 97.79 0)
 			(effects
 				(font
@@ -23697,7 +23719,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 563.88 292.1 0)
 			(effects
 				(font
@@ -24236,7 +24258,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 292.1 152.4 0)
 			(effects
 				(font
@@ -24533,7 +24555,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 180.34 190.5 0)
 			(effects
 				(font
@@ -24951,7 +24973,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 849.63 292.1 0)
 			(effects
 				(font
@@ -25037,7 +25059,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 331.47 254 0)
 			(effects
 				(font
@@ -25201,7 +25223,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 731.52 222.25 0)
 			(effects
 				(font
@@ -25421,7 +25443,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 563.88 254 0)
 			(effects
 				(font
@@ -26248,6 +26270,86 @@
 		)
 	)
 	(symbol
+		(lib_id "ergo-pw:R-EU_R0603")
+		(at 52.07 321.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "110f2c1a-a338-4c26-959d-b59c9ebf2eb2")
+		(property "Reference" "R9"
+			(at 54.61 321.31 90)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 55.372 325.12 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ergo-pw:R_0402_1005Metric"
+			(at 48.26 320.548 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25941"
+			(at 52.07 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09e9a9e7-d0d1-42ea-bbd5-3ae5165bc502")
+		)
+		(pin "2"
+			(uuid "d43ddcc1-8470-4c32-9a22-e96778c5ea78")
+		)
+		(instances
+			(project "Hyper7-Evo"
+				(path "/6e969df5-291e-4ce6-a5a9-5916de5e6cb3"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ergo-pw:VDD")
 		(at 909.32 190.5 0)
 		(unit 1)
@@ -26559,7 +26661,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 106.68 190.5 0)
 			(effects
 				(font
@@ -26934,7 +27036,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 459.74 97.79 0)
 			(effects
 				(font
@@ -27086,7 +27188,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 547.37 222.25 0)
 			(effects
 				(font
@@ -27264,7 +27366,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 886.46 292.1 0)
 			(effects
 				(font
@@ -27417,7 +27519,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 374.65 254 0)
 			(effects
 				(font
@@ -28216,7 +28318,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 513.08 152.4 0)
 			(effects
 				(font
@@ -28595,7 +28697,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 1038.86 292.1 0)
 			(effects
 				(font
@@ -29144,7 +29246,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 106.68 292.1 0)
 			(effects
 				(font
@@ -29230,7 +29332,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 711.2 254 0)
 			(effects
 				(font
@@ -30255,7 +30357,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 452.12 254 0)
 			(effects
 				(font
@@ -30541,7 +30643,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 657.86 222.25 0)
 			(effects
 				(font
@@ -31219,7 +31321,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 386.08 97.79 0)
 			(effects
 				(font
@@ -31382,7 +31484,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 792.48 97.79 0)
 			(effects
 				(font
@@ -32527,7 +32629,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 784.86 254 0)
 			(effects
 				(font
@@ -32694,7 +32796,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 241.3 69.85 0)
 			(effects
 				(font
@@ -34577,7 +34679,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 763.27 292.1 0)
 			(effects
 				(font
@@ -35165,7 +35267,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 660.4 152.4 0)
 			(effects
 				(font
@@ -36344,7 +36446,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 102.87 97.79 0)
 			(effects
 				(font
@@ -36732,7 +36834,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 681.99 69.85 0)
 			(effects
 				(font
@@ -36818,7 +36920,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 1112.52 292.1 0)
 			(effects
 				(font
@@ -37051,7 +37153,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 135.89 97.79 0)
 			(effects
 				(font
@@ -37204,7 +37306,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 1002.03 254 0)
 			(effects
 				(font
@@ -37505,7 +37607,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 106.68 254 0)
 			(effects
 				(font
@@ -37792,7 +37894,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 386.08 39.37 0)
 			(effects
 				(font
@@ -38112,7 +38214,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 1112.52 190.5 0)
 			(effects
 				(font
@@ -38265,7 +38367,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 871.22 222.25 0)
 			(effects
 				(font
@@ -38511,7 +38613,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 718.82 97.79 0)
 			(effects
 				(font
@@ -39149,7 +39251,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 711.2 190.5 0)
 			(effects
 				(font
@@ -39801,6 +39903,86 @@
 			(project "Hyper7-Evo"
 				(path "/6e969df5-291e-4ce6-a5a9-5916de5e6cb3"
 					(reference "LEDR63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ergo-pw:R-EU_R0603")
+		(at 55.88 321.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "414d341b-6774-43f4-9478-7f3605ede288")
+		(property "Reference" "R10"
+			(at 58.42 321.31 90)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 59.182 325.12 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ergo-pw:R_0402_1005Metric"
+			(at 52.07 320.548 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25941"
+			(at 55.88 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9064ed0a-e7a6-4838-a7c2-44841781ebc5")
+		)
+		(pin "2"
+			(uuid "5279ede0-dae3-4585-8cff-ee6f38ab495c")
+		)
+		(instances
+			(project "Hyper7-Evo"
+				(path "/6e969df5-291e-4ce6-a5a9-5916de5e6cb3"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -40794,7 +40976,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 241.3 97.79 0)
 			(effects
 				(font
@@ -40947,7 +41129,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 314.96 292.1 0)
 			(effects
 				(font
@@ -41166,7 +41348,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 915.67 190.5 0)
 			(effects
 				(font
@@ -41792,7 +41974,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 351.79 292.1 0)
 			(effects
 				(font
@@ -41879,7 +42061,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 608.33 39.37 0)
 			(effects
 				(font
@@ -42297,7 +42479,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 1002.03 152.4 0)
 			(effects
 				(font
@@ -43381,7 +43563,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 1002.03 97.79 0)
 			(effects
 				(font
@@ -43743,7 +43925,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 1002.03 292.1 0)
 			(effects
 				(font
@@ -43829,7 +44011,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 681.99 97.79 0)
 			(effects
 				(font
@@ -44131,7 +44313,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 241.3 152.4 0)
 			(effects
 				(font
@@ -44297,7 +44479,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 549.91 152.4 0)
 			(effects
 				(font
@@ -45292,7 +45474,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 69.85 39.37 0)
 			(effects
 				(font
@@ -45459,7 +45641,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 1002.03 39.37 0)
 			(effects
 				(font
@@ -45545,7 +45727,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 608.33 69.85 0)
 			(effects
 				(font
@@ -46334,7 +46516,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 459.74 39.37 0)
 			(effects
 				(font
@@ -47174,7 +47356,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 821.69 190.5 0)
 			(effects
 				(font
@@ -47260,7 +47442,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 69.85 292.1 0)
 			(effects
 				(font
@@ -47347,7 +47529,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 241.3 254 0)
 			(effects
 				(font
@@ -47801,7 +47983,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 1038.86 222.25 0)
 			(effects
 				(font
@@ -49253,7 +49435,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 902.97 39.37 0)
 			(effects
 				(font
@@ -49549,7 +49731,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 292.1 190.5 0)
 			(effects
 				(font
@@ -49987,7 +50169,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 69.85 254 0)
 			(effects
 				(font
@@ -50688,7 +50870,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 1002.03 190.5 0)
 			(effects
 				(font
@@ -50931,7 +51113,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 584.2 222.25 0)
 			(effects
 				(font
@@ -51223,6 +51405,72 @@
 		)
 	)
 	(symbol
+		(lib_id "ergo-pw:+3.3V")
+		(at 55.88 316.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "667839b0-0632-407d-b08a-09d363b2df67")
+		(property "Reference" "#PWR0260"
+			(at 55.88 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 55.88 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc2512bf-8937-4b85-8543-5e29c5e2d54f")
+		)
+		(instances
+			(project "Hyper7-Evo"
+				(path "/6e969df5-291e-4ce6-a5a9-5916de5e6cb3"
+					(reference "#PWR0260")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ergo-pw:R-EU_R0603")
 		(at 469.9 69.85 0)
 		(unit 1)
@@ -51361,7 +51609,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 378.46 190.5 0)
 			(effects
 				(font
@@ -51602,7 +51850,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 313.69 39.37 0)
 			(effects
 				(font
@@ -51853,7 +52101,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 474.98 292.1 0)
 			(effects
 				(font
@@ -52016,7 +52264,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 1038.86 190.5 0)
 			(effects
 				(font
@@ -52103,7 +52351,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 534.67 39.37 0)
 			(effects
 				(font
@@ -52266,7 +52514,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 812.8 292.1 0)
 			(effects
 				(font
@@ -52353,7 +52601,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 135.89 69.85 0)
 			(effects
 				(font
@@ -52440,7 +52688,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 902.97 69.85 0)
 			(effects
 				(font
@@ -52764,7 +53012,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 327.66 152.4 0)
 			(effects
 				(font
@@ -52850,7 +53098,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 394.97 292.1 0)
 			(effects
 				(font
@@ -53016,7 +53264,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 510.54 222.25 0)
 			(effects
 				(font
@@ -53829,7 +54077,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 895.35 254 0)
 			(effects
 				(font
@@ -53992,7 +54240,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 1112.52 152.4 0)
 			(effects
 				(font
@@ -54224,7 +54472,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 143.51 254 0)
 			(effects
 				(font
@@ -54311,7 +54559,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 135.89 39.37 0)
 			(effects
 				(font
@@ -54544,7 +54792,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 452.12 190.5 0)
 			(effects
 				(font
@@ -55488,7 +55736,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 932.18 254 0)
 			(effects
 				(font
@@ -55642,7 +55890,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 586.74 152.4 0)
 			(effects
 				(font
@@ -55808,7 +56056,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 674.37 190.5 0)
 			(effects
 				(font
@@ -56028,7 +56276,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 436.88 292.1 0)
 			(effects
 				(font
@@ -56770,7 +57018,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 770.89 152.4 0)
 			(effects
 				(font
@@ -57876,7 +58124,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 697.23 152.4 0)
 			(effects
 				(font
@@ -59179,7 +59427,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 422.91 97.79 0)
 			(effects
 				(font
@@ -59931,7 +60179,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 1038.86 254 0)
 			(effects
 				(font
@@ -60813,7 +61061,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 459.74 69.85 0)
 			(effects
 				(font
@@ -61109,7 +61357,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 621.03 222.25 0)
 			(effects
 				(font
@@ -61195,7 +61443,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 285.75 254 0)
 			(effects
 				(font
@@ -61281,7 +61529,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 534.67 97.79 0)
 			(effects
 				(font
@@ -62010,7 +62258,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 364.49 152.4 0)
 			(effects
 				(font
@@ -62297,7 +62545,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 241.3 222.25 0)
 			(effects
 				(font
@@ -62909,7 +63157,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 168.91 97.79 0)
 			(effects
 				(font
@@ -63062,7 +63310,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 69.85 190.5 0)
 			(effects
 				(font
@@ -63225,7 +63473,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 534.67 69.85 0)
 			(effects
 				(font
@@ -63755,7 +64003,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 313.69 69.85 0)
 			(effects
 				(font
@@ -64277,7 +64525,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 1002.03 69.85 0)
 			(effects
 				(font
@@ -64431,7 +64679,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 1074.42 97.79 0)
 			(effects
 				(font
@@ -64819,7 +65067,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 805.18 222.25 0)
 			(effects
 				(font
@@ -65130,7 +65378,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 844.55 152.4 0)
 			(effects
 				(font
@@ -65935,7 +66183,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 768.35 222.25 0)
 			(effects
 				(font
@@ -66021,7 +66269,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 438.15 152.4 0)
 			(effects
 				(font
@@ -66568,7 +66816,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 866.14 97.79 0)
 			(effects
 				(font
@@ -66865,7 +67113,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 292.1 222.25 0)
 			(effects
 				(font
@@ -67031,7 +67279,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 881.38 152.4 0)
 			(effects
 				(font
@@ -67117,7 +67365,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 143.51 152.4 0)
 			(effects
 				(font
@@ -67335,7 +67583,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 180.34 152.4 0)
 			(effects
 				(font
@@ -68163,7 +68411,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 490.22 190.5 0)
 			(effects
 				(font
@@ -68409,6 +68657,72 @@
 		)
 	)
 	(symbol
+		(lib_id "ergo-pw:+3.3V")
+		(at 52.07 316.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a29c2ef1-79f8-4137-bd13-7bf55e284ad4")
+		(property "Reference" "#PWR0259"
+			(at 52.07 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 52.07 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1eada06-fa30-4956-84d3-170d293f89cb")
+		)
+		(instances
+			(project "Hyper7-Evo"
+				(path "/6e969df5-291e-4ce6-a5a9-5916de5e6cb3"
+					(reference "#PWR0259")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ergo-pw:1206REVMNT")
 		(at 784.86 190.5 90)
 		(unit 1)
@@ -68470,7 +68784,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 784.86 190.5 0)
 			(effects
 				(font
@@ -68995,7 +69309,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 1075.69 292.1 0)
 			(effects
 				(font
@@ -69081,7 +69395,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 563.88 190.5 0)
 			(effects
 				(font
@@ -69984,7 +70298,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 519.43 292.1 0)
 			(effects
 				(font
@@ -70147,7 +70461,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 313.69 97.79 0)
 			(effects
 				(font
@@ -70467,7 +70781,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 645.16 97.79 0)
 			(effects
 				(font
@@ -70553,7 +70867,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 106.68 222.25 0)
 			(effects
 				(font
@@ -71010,7 +71324,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 748.03 254 0)
 			(effects
 				(font
@@ -71557,7 +71871,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 902.97 97.79 0)
 			(effects
 				(font
@@ -71644,7 +71958,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 241.3 292.1 0)
 			(effects
 				(font
@@ -71884,7 +72198,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 1075.69 222.25 0)
 			(effects
 				(font
@@ -72048,7 +72362,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 1038.86 152.4 0)
 			(effects
 				(font
@@ -72508,7 +72822,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 386.08 69.85 0)
 			(effects
 				(font
@@ -72892,7 +73206,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 734.06 152.4 0)
 			(effects
 				(font
@@ -72978,7 +73292,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 925.83 292.1 0)
 			(effects
 				(font
@@ -73424,7 +73738,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 748.03 190.5 0)
 			(effects
 				(font
@@ -74109,7 +74423,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 878.84 190.5 0)
 			(effects
 				(font
@@ -74262,7 +74576,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 476.25 152.4 0)
 			(effects
 				(font
@@ -74557,7 +74871,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 829.31 97.79 0)
 			(effects
 				(font
@@ -74724,7 +75038,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 681.99 39.37 0)
 			(effects
 				(font
@@ -75248,7 +75562,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 755.65 69.85 0)
 			(effects
 				(font
@@ -75623,7 +75937,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 341.63 190.5 0)
 			(effects
 				(font
@@ -75709,7 +76023,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 106.68 152.4 0)
 			(effects
 				(font
@@ -75795,7 +76109,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 623.57 152.4 0)
 			(effects
 				(font
@@ -76582,7 +76896,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 143.51 190.5 0)
 			(effects
 				(font
@@ -77788,7 +78102,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 1107.44 97.79 0)
 			(effects
 				(font
@@ -78466,7 +78780,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 341.63 222.25 0)
 			(effects
 				(font
@@ -78863,7 +79177,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 1002.03 222.25 0)
 			(effects
 				(font
@@ -79016,7 +79330,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 497.84 97.79 0)
 			(effects
 				(font
@@ -79102,7 +79416,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 600.71 254 0)
 			(effects
 				(font
@@ -79488,7 +79802,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 1112.52 254 0)
 			(effects
 				(font
@@ -79886,7 +80200,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 933.45 152.4 0)
 			(effects
 				(font
@@ -80181,7 +80495,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 838.2 254 0)
 			(effects
 				(font
@@ -80570,7 +80884,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 1075.69 190.5 0)
 			(effects
 				(font
@@ -80656,7 +80970,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 637.54 190.5 0)
 			(effects
 				(font
@@ -80963,7 +81277,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 571.5 97.79 0)
 			(effects
 				(font
@@ -81049,7 +81363,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 608.33 97.79 0)
 			(effects
 				(font
@@ -81135,7 +81449,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 69.85 222.25 0)
 			(effects
 				(font
@@ -81749,7 +82063,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 241.3 190.5 0)
 			(effects
 				(font
@@ -81835,7 +82149,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 527.05 254 0)
 			(effects
 				(font
@@ -82352,7 +82666,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 278.13 292.1 0)
 			(effects
 				(font
@@ -82649,7 +82963,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 694.69 222.25 0)
 			(effects
 				(font
@@ -82735,7 +83049,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 401.32 152.4 0)
 			(effects
 				(font
@@ -82898,7 +83212,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 143.51 292.1 0)
 			(effects
 				(font
@@ -83200,7 +83514,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 1074.42 69.85 0)
 			(effects
 				(font
@@ -83353,7 +83667,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 435.61 222.25 0)
 			(effects
 				(font
@@ -83439,7 +83753,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 726.44 292.1 0)
 			(effects
 				(font
@@ -84267,7 +84581,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 143.51 222.25 0)
 			(effects
 				(font
@@ -84486,7 +84800,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 69.85 152.4 0)
 			(effects
 				(font
@@ -84847,7 +85161,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 637.54 254 0)
 			(effects
 				(font
@@ -85081,7 +85395,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 180.34 254 0)
 			(effects
 				(font
@@ -85315,7 +85629,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 1037.59 97.79 0)
 			(effects
 				(font
@@ -85715,7 +86029,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 180.34 292.1 0)
 			(effects
 				(font
@@ -86172,7 +86486,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 349.25 97.79 0)
 			(effects
 				(font
@@ -87016,7 +87330,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 674.37 254 0)
 			(effects
 				(font
@@ -87457,7 +87771,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 398.78 222.25 0)
 			(effects
 				(font
@@ -87610,7 +87924,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 69.85 97.79 0)
 			(effects
 				(font
@@ -88152,7 +88466,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 1112.52 222.25 0)
 			(effects
 				(font
@@ -88730,7 +89044,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 829.31 39.37 0)
 			(effects
 				(font
@@ -88960,7 +89274,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 1074.42 39.37 0)
 			(effects
 				(font
@@ -90080,7 +90394,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 1075.69 152.4 0)
 			(effects
 				(font
@@ -90243,7 +90557,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 1075.69 254 0)
 			(effects
 				(font
@@ -90395,7 +90709,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 928.37 222.25 0)
 			(effects
 				(font
@@ -91972,7 +92286,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 755.65 39.37 0)
 			(effects
 				(font
@@ -92125,7 +92439,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 472.44 222.25 0)
 			(effects
 				(font
@@ -92461,7 +92775,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 69.85 69.85 0)
 			(effects
 				(font
@@ -92704,7 +93018,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 415.29 254 0)
 			(effects
 				(font
@@ -92936,7 +93250,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 415.29 190.5 0)
 			(effects
 				(font
@@ -93725,7 +94039,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 623.57 292.1 0)
 			(effects
 				(font
@@ -93888,7 +94202,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 829.31 69.85 0)
 			(effects
 				(font
@@ -94054,7 +94368,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "Not Available"
+		(property "LCSC Part" "C3646935"
 			(at 180.34 222.25 0)
 			(effects
 				(font
