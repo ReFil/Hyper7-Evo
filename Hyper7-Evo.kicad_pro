@@ -744,8 +744,8 @@
     ]
   ],
   "text_variables": {
-    "GIT_HASH": "45ca3f7",
-    "GIT_TAG": "V0.1",
+    "GIT_HASH": "4bbebc1",
+    "GIT_TAG": "V0.2",
     "PROJ_PN": "00000002",
     "PROJ_TITLE": "Hyper7 Evo"
   }
